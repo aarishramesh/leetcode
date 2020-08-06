@@ -1,5 +1,6 @@
 package google.interview;
 
+import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
@@ -14,6 +15,8 @@ public class OddEvenJump {
 	public static void main(String[] args) {
 		int[] A = {2,3,1,1,4};
 		System.out.println(oddEvenJumps(A));
+		HashMap<String, String> map = new HashMap<String, String>();
+		map.put("hello", "world");
 	}
 	
 	public static int oddEvenJumps(int[] A) {
